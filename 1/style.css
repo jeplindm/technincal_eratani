@@ -1,0 +1,217 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 5.9375rem;
+  padding-left: 5.9375rem;
+}
+
+nav .mitra-petani-button {
+  background-color: #ffcd00;
+  color: #121212;
+  border: 1px solid #ffcd00;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  padding-left: 1.125rem;
+  padding-right: 1.125rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+nav .mitra-petani-button:hover {
+  background-color: #ffcd00;
+  opacity: 0.7;
+}
+
+.logo {
+  width: 11.1875rem;
+  height: 2.875rem;
+}
+
+.hero-section {
+  position: relative;
+  height: 22.1875rem;
+  margin-bottom: 6.25rem;
+}
+
+.hero-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutus-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.3125rem;
+}
+
+.heading-section {
+  color: #0e9749;
+  font-weight: 700;
+  font-size: 3.125rem;
+  margin-bottom: 3.5625rem;
+  margin-top: 0;
+}
+
+.aboutus-container {
+  display: flex;
+  padding-left: 5.9375rem;
+  padding-right: 5.9375rem;
+}
+
+.wrapper-aboutus-img {
+  position: relative;
+}
+
+.aboutus-container .aboutus-img {
+  object-fit: cover;
+}
+
+.aboutus-paragraph {
+  font-weight: 500;
+  font-size: 1.5625rem;
+  line-height: 2.5rem;
+  padding-left: 3.75rem;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #121212;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.vision-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.3125rem;
+}
+
+.vision-paragraph {
+  text-align: center;
+  font-weight: 500;
+  color: #121212;
+  letter-spacing: 0.05em;
+  line-height: 2.5rem;
+  font-size: 1.5625rem;
+  padding-left: 10.4375rem;
+  padding-right: 10.4375rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6.3125rem;
+}
+
+.mission-points {
+  padding-left: 10.4375rem;
+  padding-right: 10.4375rem;
+}
+
+.mission-point {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mission-paragraph {
+  padding-left: 1.0625rem;
+  font-weight: 500;
+  color: #121212;
+  letter-spacing: 0.05em;
+  line-height: 2.5rem;
+  font-size: 1.5625rem;
+  margin-top: -0.625rem;
+  margin-bottom: 1.6875rem;
+}
+
+.ourteam-section {
+  margin-bottom: 6.3125rem;
+}
+
+.first-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.125rem;
+  padding-left: 5.9375rem;
+  padding-right: 5.9375rem;
+}
+
+.second-members {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.125rem;
+  margin-top: 2.125rem;
+  padding-left: 19.3125rem;
+  padding-right: 19.3125rem;
+}
+
+footer {
+  background-color: #0e9749;
+  padding-top: 2.5rem;
+  padding-left: 5.9375rem;
+  padding-bottom: 1.375rem;
+}
+
+.address-align {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.6875rem;
+  margin-top: 1.3125rem;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #f3f3f3;
+  letter-spacing: 0.05em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-div .submenu {
+  margin-left: 6.6875rem;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: #f3f3f3;
+  letter-spacing: 0.05em;
+}
+
+#menu {
+  font-weight: 700;
+  color: #f3f3f3;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.05em;
+  margin-top: 20px;
+  margin-bottom: 1.1875rem;
+  margin-left: 6.6875rem;
+}
+
+.yellow-icon {
+  position: absolute;
+  top: 3633px;
+  right: 95px;
+}
